@@ -1,0 +1,60 @@
+/*通用样式*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: '微软雅黑';
+    font-size: 14px;
+    line-height: 24px;
+}
+.wp{
+    width: 960px;
+    margin: 0 auto ;
+}
+.z{
+    float: left;
+}
+.y{
+    float: right;
+}
+.cl:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+
+.top{
+    width:100%;
+    height: 24px;
+    background-color: #303030;
+    color:#D8D8D8;
+}
+.top span{
+    margin-right: 15px;
+}
+
+.top span.mar0{
+    margin:0px;
+}
+.top a:link{
+    color: #D8D8D8;
+    text-decoration: none;
+}
+.top a:visited{
+    color: #D8D8D8;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+.top a:active{
+    color: #D8D8D8;
+    text-decoration: none;
+}
+/*.mar0{*/
+    /*margin: 0px;*/
+/*}*/
