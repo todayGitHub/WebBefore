@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: none;
 }
 body{
     font-family: '微软雅黑';
@@ -24,8 +25,6 @@ body{
     visibility: hidden;
     clear: both;
 }
-
-
 .top{
     width:100%;
     height: 24px;
@@ -58,3 +57,52 @@ body{
 /*.mar0{*/
     /*margin: 0px;*/
 /*}*/
+/*LOGS*/
+.logs{
+    height: 59px;
+}
+/*搜索*/
+.sousuo{
+    width: 330px;
+    height: 41px;
+    margin-top:9px;
+}
+.sousuo td{
+    height: 41px;
+}
+.s_z{
+    width: 6px;
+    background: url("../images/s_z.jpg") ;
+    background-repeat: no-repeat;
+}
+.s_c{
+    width: 200px;
+    background: url("../images/s_c.jpg") ;
+    background-repeat: repeat-x;
+}
+.s_y{
+    width: 78px;
+    background: url("../images/s_r.jpg") ;
+    background-repeat: no-repeat;
+}
+.s_c input{
+    height:35px;
+    line-height: 35px;
+    border: none;
+    margin-top: 2px;
+    width: 200px;
+}
+.s_y button{
+    width: 78px;
+    height:41px;
+    background: none;
+    border: 0px;
+    cursor:pointer;
+}
+.dianhua span{
+    font-size:26px ;
+    color: darkred;
+    height: 59px;
+    line-height: 59px;
+    margin-left: 15px;
+}
